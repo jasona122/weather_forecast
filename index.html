@@ -4,17 +4,68 @@
     </head>
     
     <body>
-        <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Four Day Weather Forecast</h1>
+              <p class="lead">This is a program to display the weather forecast for the next four days</p>
+            </div>
         </div>
 
+        <br>
 
+        <div class="card" style="width: 18rem;" id="day0">
+            <img class="card-img-top" src="..." alt="Weather logo" id="imgDay0">
+            <div class="card-body">
+              <h5 class="card-title" id="titleDay0"></h5>
+              <p class="card-text" id="descDay0"></p>
+            </div>
+            <ul class="list-group list-group-flush" id="dataDay0">
+              <li class="list-group-item">No data</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="card" style="width: 18rem;" id="day1">
+            <img class="card-img-top" src="..." alt="Weather logo" id="imgDay1">
+            <div class="card-body">
+              <h5 class="card-title" id="titleDay1"></h5>
+              <p class="card-text" id="descDay1"></p>
+            </div>
+            <ul class="list-group list-group-flush" id="dataDay1">
+              <li class="list-group-item">No data</li>
+            </ul>
+          </div>
+
+          <br>
+
+          <div class="card" style="width: 18rem;" id="day2">
+            <img class="card-img-top" src="..." alt="Weather logo" id="imgDay2">
+            <div class="card-body">
+              <h5 class="card-title" id="titleDay2"></h5>
+              <p class="card-text" id="descDay2"></p>
+            </div>
+            <ul class="list-group list-group-flush" id="dataDay2">
+              <li class="list-group-item">No data</li>
+            </ul>
+          </div>
+
+          <br>
+
+          <div class="card" style="width: 18rem;" id="day3">
+            <img class="card-img-top" src="..." alt="Weather logo" id="imgDay3">
+            <div class="card-body">
+              <h5 class="card-title" id="titleDay3"></h5>
+              <p class="card-text" id="descDay3"></p>
+            </div>
+            <ul class="list-group list-group-flush" id="dataDay3">
+              <li class="list-group-item">No data</li>
+            </ul>
+          </div>
+
+          <br>
+
+        <script src="main.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
