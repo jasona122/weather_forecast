@@ -117,7 +117,6 @@ function initScreen() {
     let weather = new WeatherForecast();
     let display = new WeatherDisplay();
     weather.forecast().then(function(response) {
-        console.log(response.data);
         display.display(response.data.items[0].forecasts);
     },
     function(err) {
